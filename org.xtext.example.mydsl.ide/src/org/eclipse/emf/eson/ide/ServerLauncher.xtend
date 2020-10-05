@@ -5,7 +5,7 @@
  * which accompanies this distribution, and is available at
  * http://www.eclipse.org/legal/epl-v10.html
  *******************************************************************************/
-package org.xtext.example.mydsl.ide
+package org.eclipse.emf.eson.ide
 
 import com.google.inject.Guice
 import com.google.inject.Inject

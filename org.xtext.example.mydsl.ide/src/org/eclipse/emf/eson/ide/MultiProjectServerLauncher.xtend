@@ -1,5 +1,4 @@
-package org.xtext.example.mydsl.ide
-
+package org.eclipse.emf.eson.ide
 import com.google.inject.Guice
 import java.io.ByteArrayInputStream
 import java.io.ByteArrayOutputStream

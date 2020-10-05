@@ -1,4 +1,4 @@
-package org.xtext.example.mydsl.ide;
+package org.eclipse.emf.eson.ide;
 import java.io.IOException;
 import java.net.InetSocketAddress;
 import java.net.SocketAddress;

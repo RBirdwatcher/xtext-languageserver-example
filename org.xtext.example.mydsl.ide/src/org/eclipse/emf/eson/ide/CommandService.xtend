@@ -1,4 +1,4 @@
-package org.xtext.example.mydsl.ide
+package org.eclipse.emf.eson.ide
 
 import org.eclipse.xtext.ide.server.commands.IExecutableCommandService
 import org.eclipse.lsp4j.ExecuteCommandParams

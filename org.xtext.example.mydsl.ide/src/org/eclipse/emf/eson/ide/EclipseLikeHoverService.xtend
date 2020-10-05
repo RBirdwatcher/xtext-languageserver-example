@@ -1,4 +1,4 @@
-package org.xtext.example.mydsl.ide
+package org.eclipse.emf.eson.ide
 
 import com.google.inject.Inject
 import java.util.List

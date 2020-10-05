@@ -16,10 +16,10 @@ dependencies {
 task generateXtextLanguage(type: JavaExec) {
 	main = 'org.eclipse.emf.mwe2.launch.runtime.Mwe2Launcher'
 	classpath = configurations.mwe2
-	inputs.file "src/org/xtext/example/mydsl/GenerateMyDsl.mwe2"
-	inputs.file "src/org/xtext/example/mydsl/MyDsl.xtext"
+	inputs.file "src/org/eclipse/emf/eson/GenerateEFactory.mwe2"
+	inputs.file "src/org/eclipse/emf/eson/EFactory.xtext"
 	outputs.dir "src-gen"
-	args += "src/org/xtext/example/mydsl/GenerateMyDsl.mwe2"
+	args += "src/org/eclipse/emf/eson/GenerateEFactory.mwe2"
 	args += "-p"
 	args += "rootPath=/${projectDir}/.."
 }

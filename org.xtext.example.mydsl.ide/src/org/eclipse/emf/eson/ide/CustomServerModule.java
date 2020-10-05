@@ -1,4 +1,4 @@
-package org.xtext.example.mydsl.ide;
+package org.eclipse.emf.eson.ide;
 
 import org.eclipse.xtext.ide.server.IWorkspaceConfigFactory;
 import org.eclipse.xtext.ide.server.MultiProjectWorkspaceConfigFactory;
