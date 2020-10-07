@@ -6,8 +6,18 @@ dependencies {
 	compile "org.eclipse.xtext:org.eclipse.xtext.xbase.ide:${xtextVersion}"
 }
 
+configurations {
+	
+	repositories {
+		 mavenLocal()
+	}
+}
 // Add a start script for the socket case
 mainClassName = 'org.eclipse.emf.eson.ide.RunServer'
+
+tasks.withType(JavaExec) {
+    jvmArgs = ['-Xms1g', '-Xmx6g' , '-agentpath:C:\\ProgramData\\YourKit\\2020.9.410.3CF74696\\64\\yjpagent.dll=delay=10000'] 
+}
 startScripts {
 	applicationName = 'mydsl-socket'
 }

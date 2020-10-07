@@ -25,7 +25,7 @@ class MyDslCodeActionService implements ICodeActionService2 {
 		val params = options.codeActionParams
 		val resource = options.resource
 		val result = <CodeAction>newArrayList
-		for (d : params.context.diagnostics) {
+	/**for (d : params.context.diagnostics) {
 			if (d.code == EFactoryValidator.INVALID_NAME) {
 				val text = document.getSubstring(d.range)
 				result += new CodeAction => [
@@ -44,7 +44,7 @@ class MyDslCodeActionService implements ICodeActionService2 {
 				]
 
 			}
-		}
+		} */	
 		return result.map[Either.forRight(it)]
 	}
 
